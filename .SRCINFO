@@ -15,6 +15,7 @@ pkgbase = hypridle-git
 	depends = sdbus-cpp
 	depends = systemd
 	depends = wayland-protocols
+	depends = hyprutils-git
 	provides = hypridle
 	conflicts = hypridle
 	source = hypridle::git+https://github.com/hyprwm/hypridle.git
