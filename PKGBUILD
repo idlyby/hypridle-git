@@ -1,4 +1,5 @@
-# Maintainer: alba4k <blaskoazzolaaaron@gmail.com>
+# Maintainer: Edward Davis <idlyby@proton.me>
+# Contributor: alba4k <blaskoazzolaaaron@gmail.com>
 
 _pkgname="hypridle"
 pkgname="${_pkgname}-git"
@@ -8,7 +9,7 @@ pkgdesc="Hyprland's idle daemon"
 arch=(any)
 url="https://github.com/hyprwm/hypridle"
 license=('BSD-3-Clause')
-depends=('wayland' 'hyprlang-git' 'sdbus-cpp>=2.0.0' 'systemd' 'wayland-protocols' 'hyprutils-git')
+depends=('wayland' 'hyprlang-git' 'sdbus-cpp-git' 'systemd' 'wayland-protocols' 'hyprutils-git')
 makedepends=('git' 'cmake' 'gcc' 'gdb' 'xorgproto')
 source=("${_pkgname}::git+https://github.com/hyprwm/hypridle.git")
 provides=("hypridle")
